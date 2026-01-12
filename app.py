@@ -126,7 +126,7 @@ if st.button('Calcular Riesgo de abandono de cliente', type="primary"):
     # Explicabilidad
 
     st.subheader("Influencia de las Variables")
-    st.write("Que variables estan afectando a la probabilidad de abandono del cliente (Usando los valores SHAP)")
+    st.write("Que variables estan afectando a la probabilidad de abandono del cliente (Usando los valores SHAP) (Tarda un poco en cargar)")
 
     # Valores shap
     # 1. Extraer los componentes del pipeline para aplicarlos a los datos

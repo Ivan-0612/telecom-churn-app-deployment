@@ -21,4 +21,4 @@ COPY churn_pipeline.pkl .
 EXPOSE 8501
 
 # Comando para ejecutar la aplicación al iniciar el contenedor
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["sh", "-c", "streamlit run app.py --server.port=${PORT} --server.address=0.0.0.0"]
